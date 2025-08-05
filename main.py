@@ -4,7 +4,7 @@ from routes import routes
 from flask import Flask
 from threading import Thread
 
-TOKEN = '8038235760:AAFuoJ79pQUVCob9t5U8KwnqZxlgjb02uUY'
+TOKEN = '8038235760:AAHd3KiFuRitaT4LtLgFhxfeXTuVVr12h_E'
 bot = telebot.TeleBot(TOKEN, parse_mode="Markdown")
 
 # === Flask сервер для keep-alive ===
